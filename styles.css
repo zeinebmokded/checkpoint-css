@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.google.com/specimen/Oleo+Script+Swash+Caps');
+body {
+    font-family:'roboto',sans-serif;
+    background: rgba(0,0,0,0.7) url("imgo/Z.M.png");
+    background-size: 25%;
+    background-blend-mode: darken;
+}
+li {
+    list-style-type: none;
+    text-decoration-style: none;
+}
+
+nav li:nth-of-type(1){background-color:  #F20089;
+padding: 40px;}
+nav li:nth-of-type(2){background-color: #F283B6;
+padding: 40px;}
+nav li:nth-of-type(3){background-color: #EDBFB7;padding: 40px;}
+nav li:nth-of-type(4){background-color: #B5BFA1 ; padding: 40px;}
+nav li:nth-of-type(5){background-color: #6E9887 ;padding: 40px;}
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+/* mouse over element */
+div:hover {
+    color: rgb(252, 252, 252);
+} 
+
+/* selected link */
+a:active{
+    color: rgb(63, 63, 212)
+}
+
+.welcome{
+    color: rgb(0, 82, 0);
+    background-color: EDBFB7;
+    padding-left: 50;padding-right: 50;
+    border: 15px solid palevioletred;
+    font-size: 40px;
+    font-family: 'Oleo Script Swash Caps',sans-serif;
+}
+.zozo{
+    background-color: #b0c38cd6;
+    padding: 50;
+    margin-left: 520;
+    margin-bottom: 0;
+    margin-right:20 ;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+
+.img { 
+    float: left;
+    
+}
